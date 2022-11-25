@@ -1,0 +1,42 @@
+VARIABLES: Las variables son palabras de nuestra eleccion para guardar algun valor en esta y hay distintas formas de declararlas en javascript
+-var nombre
+-let nombre
+-const nombre
+
+STRING: Son bloques de caracteres o texto los cuales se definiran entre comillas simples o dobles
+-var nombre = 'Jovanny'
+-var nombre = "Jovanny"
+
+FUNCIONES: Las funciones son llamadas objetos invocables ya que tienen las mismas propiedades que cualquier objeto.
+
+Su estructura de una funcion es la siguiente:
+
+       function miFuncion(){
+       --codigo a ejecutar (tarea por hacer)
+       }
+
+Para mandar a llamar la funcion anterior seria de la siguiente manera:
+
+       miFuncion();
+
+A una funcion tambien se le pueden pasar argumentos para que estos sean utilizados en la terea que queremos que realice como se muestra enseguida.
+
+	  function logSaludo(nombre){
+	    console.log('Hola ' + nombre);
+	  }
+
+
+	  logSaludo('Jovanny');
+
+
+Cuando utilizamos funciones lo mas comun es que queramos que esta nos devuelva un valor por lo cual tendriamos que utilizar return (retornar) como se muestra enla siguiente funcion en la cual se suman dos valores los cuales pasamos como parametros:
+
+	  function Suma(a, b){
+	  var suma = a + b;
+	  return suma;
+	  }
+	 
+	  Suma(5 + 2); //retornara 7
+
+
+Cabe señalar que hay un Scope o alcance en las variables que se declaran ya que si tratamos de invocar o imprimir una variable que se encuentra dentro de una funcion la imprimira como indefinida ya que esta esta declarada dentro de la funcion por lo cual no la pueden invocar fuera de ella.
