@@ -1,0 +1,36 @@
+******************Bucle For*****************
+La sentencia For recibe tres argumentos que determinan la iteracion del bloque de codigo, por lo que el bucle va a iterar sobre el bloque de codigo tantas veces como se cumpla la condicion indicada en la estructura del bucle
+
+Un bucle FOR tiene la siguientes sintaxis
+
+for(var i=0;             i<10;                     i++){
+    |variable inicial|  expresion condicional |   incremento de variable
+}
+
+como se muestra en la sintaxis se conforma de la siguiente forma
+1.-primero se coloca la palabra clave FOR
+2.-entre parentecis se usan las siguiente declaraciones:
+	-declaramos una variable inicial ya que esto indicara el incio de una repeticion
+	-seguido colocamos una expresion condicional ya que el bucle se repetira hasta que 	 la condicion sea falsa
+	-por ultimo tendremos nuestra variable la cual se ira incrementando o restando 	segun sea el caso
+
+
+
+*****************Operadores logicos**************************
+
+Hay distintos operadores logicos en javascript y algunos de ellos son
+ || (O), 
+ && (Y), 
+  ! (NO)
+
+El operador OR se representa con dos símbolos de linea vertical ||  :
+esta pensado para manipular solo valores booleanos. Si cualquiera de sus argumentos es true, retorna true, de lo contrario retorna false 
+
+El operador AND es representado con dos ampersands &&  :
+En la programación clásica, AND retorna true si ambos operandos son valores verdaderos y false en cualquier otro caso.
+
+El operador booleano NOT se representa con un signo de exclamación !  :
+El operador acepta un solo argumento y realiza lo siguiente:
+
+    Convierte el operando al tipo booleano: true/false.
+    Retorna el valor contrario.
