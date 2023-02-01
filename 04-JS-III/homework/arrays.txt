@@ -1,0 +1,10 @@
+********************ARRAYS*****************
+
+Los arrays en javascript son objetos similares a una lista ya que un array puede albergar dentro un conjunto de datos, ademas los array nos proporcionan ciertos metodos para realizar operaciones de recorrido y de modificacion.
+
+Con el metodo .length la matriz devolvera el numero total de elementos que la conforman.
+
+Con los metodos .push agregar elementos al final del array con el metodo .pop eliminara el ultimo elemento del array. Lo mismo pasa con el metodo unshift que agrega pero al inicio del array y con el metodo shift el cual elimina el primer elemento del array.
+
+
+
