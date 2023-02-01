@@ -1,0 +1,33 @@
+************************OBJETOS***************************
+
+Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave) y un valor. El valor de una propiedad puede ser una función, en cuyo caso la propiedad es conocida como un método. Además de los objetos que están predefinidos en el navegador, puedes definir tus propios objetos.
+
+Un objeto es un entidad independiente con propiedades y tipos. Compáralo con una taza, por ejemplo. Una taza es un objeto con propiedades. Una taza tiene un color, un diseño, un peso, un material del que está hecha, etc. Del mismo modo, los objetos de JavaScript pueden tener propiedades que definan sus características.
+
+Para acceder aun elemento de un objeto tenemos dos opciones:
+
+1.- con notacion de puntos  (user.username)
+2.- con notacion de corchetes (user['username'])
+
+Para la asignacion de valores de igual forma se pueden usar las dos opciones de acceso con notacion de puntos y con notacion de corchetes
+
+1.- user.username = 'Jovanny';
+2.-user['username'] = 'Fernando';
+
+Para eliminar alguna propiedad del objeto  se puede realizar con la palabra clave DELETE como se muestra enseguida.
+
+delete user.username;
+
+Tambien se pueden generar metodos dentro de un objeto los metodos vendrian siendo funciones dentro de nuestro objeto
+
+const nuevoObj = {
+	decirHola: function(){
+		console.log('Hola mundo')
+	}
+}
+
+y para poder invocar el metodo se puede realizar con notacion de puntos o de corchetes solo agregando al final parentecis como se muestra en seguida
+
+nuevoObj.decirHiola();
+nuevoObj['decirHola']();
+
